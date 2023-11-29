@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-grid {
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-color: #999;
+}
+
+.calculator-grid button {
+  font-family: "DM Mono", monospace;
+  font-size: 25px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  grid-column: span 4;
+  font-family: "DM Mono", monospace;
+  font-size: 25px;
+  text-align: end;
+  background-color: #fad3cb;
+  padding: 15;
+  border: none;
+}
