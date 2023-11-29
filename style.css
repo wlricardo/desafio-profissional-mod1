@@ -25,6 +25,17 @@
   cursor: pointer;
 }
 
+.calculator-grid button:nth-child(n + 18) {
+  background-color: tomato;
+}
+
+button:hover,
+.calculator-grid button:nth-child(n + 18):hover {
+  background-color: #440b15;
+  color: white;
+  transition: 0.2s;
+}
+
 textarea {
   grid-column: span 4;
   font-family: "DM Mono", monospace;
